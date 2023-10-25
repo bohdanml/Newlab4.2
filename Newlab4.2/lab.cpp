@@ -23,7 +23,7 @@ int main() {
         else if (-1 <= x && x < 3) {
             y = 2 * log10(1 - x / 4);
         }
-        else if (x >= 3) {
+        else if (x >= 1) {
             y = cos(abs(x)) + 3;
         }
 
